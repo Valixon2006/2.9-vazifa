@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	background-color: rgb(13 16 20 );
+	color: #fff;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+
+.gap {
+	display: grid;
+	grid-gap: 20px;
+}
+
+.bizness {
+	max-width: 1104px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	margin: auto; 
+	padding: 50px 0;
+}
+
+.biznes_bac_rad {
+	background-color: rgb(25, 30, 39);
+	border-radius: 10px;
+}
+
+.biznes_title {
+	padding: 16px 20px;
+	position: relative;
+}
+
+.biznes_title p {
+	font-size: 12px;
+	font-weight: 400;
+	color: rgb(89, 103, 121);
+}
+
+.biznes_title h1 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.team-img {
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	inset: 8px 0px 8px auto;
+}
+
+.kiber {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.our-group {
+	position: relative;
+	background-image: url(images/first-bg-image.png);
+	width: 100%;
+	min-height: 196px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgba(17, 17, 17, 0.698);
+	background-position: center center;
+	border-radius: 10px;
+}
+
+.our-group-black {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(17, 17, 17, 0.698);
+	gap: 8px;
+	align-content: center;
+	justify-items: center;
+}
+
+.our-group-black h3 {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.our-group-black h2 {
+	font-weight: 800;
+	font-size: 54px;
+	line-height: 126%;
+	text-transform: uppercase;
+}
+
+.kiber_title {
+	padding: 19px 12px;
+	text-align: center;
+	gap: 8px;
+}
+
+.kiber_title h2 {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.kiber_title p {
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.ideas_title {
+	padding: 19px 12px;
+	gap: 8px;
+	text-align: center;
+}
+
+.ideas_title p {
+	font-weight: 400;
+	font-size: 12px;
+	opacity: .6;
+}
+
+.aqsh_title {
+	padding: 18px 38px;
+	text-align: center;
+}
+
+.aqsh_title p {
+	font-weight: 400;
+	font-size: 12px;
+	opacity: .6;
+}
+
+.aqsh_title h3 {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.biznes_group_title {
+	padding: 16px 20px;
+	position: relative;
+}
+
+.biznes_group_title p {
+	font-weight: 400;
+	font-size: 12px;
+	color: rgb(89, 103, 121);
+}
+
+.biznes_group_title h1 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.biznes_group_title img {
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	inset: 8px 0px 8px auto;
+}
+
+.uic_group {
+	width: 100%;
+	height: 315px;
+	display: grid;
+	align-content: center;
+	justify-items: center;
+}
+
+.mituz_title {
+	padding: 16px 18px;
+	position: relative;
+
+}
+
+.mituz_title h3 {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.mituz_title p {
+	font-weight: 300;
+	font-size: 11px;
+	opacity: .6;
+}
+
+.mituz_title img {
+	width: 89px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.it_1ui {
+	text-align: center;
+	align-content: center;
+}
+
+.it_1ui h1 {
+	color: rgb(29, 113, 238);
+	font-size: 44px;
+	font-weight: 600;
+}
+
+.it_1ui h3 {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.it_1ui p {
+	font-weight: 300;
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.biznes_group_text {
+	width: 100%;
+	height: 80px;
+	position: relative;
+	padding: 16px 20px;
+	gap: 5px;
+}
+
+.biznes_group_text p {
+	font-size: 12px;
+	font-weight: 400;
+	color: rgb(89, 103, 121);
+}
+
+.biznes_group_text h1 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.biznes_group_text img {
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	inset: 8px 0px 8px auto;
+}
+
+.brend_title {
+	position: relative;
+	padding: 16px;
+}
+
+.brend_title h2 {
+	font-weight: 600;
+  font-size: 16px;
+}
+
+.brend_title p {
+	font-weight: 400;
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.brend_title img {
+	width: 63px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.speed_top {
+	height: 50px;
+	align-content: center;
+	justify-items: center;
+}
+
+.speed_top h2 {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.speed_top span {
+	color: rgb(29, 113, 238);
+}
+
+.top_100 {
+	height: 82px;
+	align-content: center;
+	justify-items: center;
+}
+
+.top_100 p {
+	font-size: 16px;
+	font-weight: 400;
+	opacity: 0.6;
+}
+
+.top_100 h1 {
+	font-size: 24px;
+  font-weight: 600;
+}
+
+.open_space {
+	width: 100%;
+	height: 143px;
+	background-image: url(images/second-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.open_bac {
+	width: 100%;
+	height: 100%;
+	align-items: start;
+	justify-content: end;
+	background: linear-gradient(rgba(17, 17, 17, 0.2) 0%, rgba(17, 17, 17, 0.8) 81.25%);
+	padding: 17px;
+}
+
+.open_bac p {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.open_bac h2 {
+	font-size: 18px;
+  font-weight: 600;
+}
+
+.achiv_100_title {
+	position: relative;
+	padding: 16px 18px;
+	gap: 8px;
+}
+
+.achiv_100_title p {
+	font-weight: 300;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.achiv_100_title h2 {
+	font-weight: 500;
+  font-size: 16px;
+}
+
+.achiv_100_title .achiv_100 {
+	width: 113px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.mit_cup {
+	width: 89px;
+}
+
+.year_gift {
+	width: 63px;
+}
+
+.achiv_100 {
+	width: 113px;
+}
+
+@media screen and (max-width: 1110px) {
+  .bizness {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
