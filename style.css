@@ -367,5 +367,6 @@ body {
 @media screen and (max-width: 1110px) {
   .bizness {
     grid-template-columns: repeat(1, 1fr);
+		padding: 50px;
   }
 }
